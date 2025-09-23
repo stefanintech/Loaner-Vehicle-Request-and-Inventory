@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5430b593c3c83210e89b341d05013179" label="Loaner Vehicle Catalog" max_length="40" name="x_1807595_loaner_0_loaner_vehicle_catalog" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

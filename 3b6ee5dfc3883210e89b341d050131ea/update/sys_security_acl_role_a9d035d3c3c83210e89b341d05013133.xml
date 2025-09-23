@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 03:34:22</sys_created_on>
+        <sys_id>a9d035d3c3c83210e89b341d05013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1807595_loaner_0_loaner_vehicle_catalog.x_1807595_loaner_0.lva_user</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1807595_loaner_0">3b6ee5dfc3883210e89b341d050131ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">3b6ee5dfc3883210e89b341d050131ea</sys_scope>
+        <sys_security_acl display_value="x_1807595_loaner_0_loaner_vehicle_catalog">95d035d3c3c83210e89b341d05013130</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a9d035d3c3c83210e89b341d05013133</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 03:34:22</sys_updated_on>
+        <sys_user_role display_value="x_1807595_loaner_0.lva_user" name="x_1807595_loaner_0.lva_user">b76ee5dfc3883210e89b341d050131f0</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
