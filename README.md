@@ -1,2 +1,18 @@
-# Loaner-Vehicle-Request-and-Inventory
-The Loaner Vehicle Request and Inventory Management application centralizes the request process, inventory tracking, and servicing workflows. This ensures all vehicle data is kept up-to-date, tasks are automatically routed, and users have a clear way to request, receive, and return vehicles through a user-friendly portal.
+# Loaner-Vehicle-Request-and-Inventory 🚗
+
+Custom application to help businesses request and track loaner vehicles. 
+
+## Lessons Learned 💭
+Work in progress.
+
+## Optimization ✅
+Work in progress.
+
+## Tech Used 💻
+
+ServiceNow Studio 💘
+
+## Examples ⤵️
+Take a look at my other projects that I have in my own portfolio:
+
+**Personal Portfolio:** https://github.com/stefanintech/NewStefanTaitanoWebsite
