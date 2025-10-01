@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="1e3a58b0c3503210e89b341d050131e2" label="Vehicle Tracker" max_length="40" name="x_1807595_loaner_0_vehicle_tracker" type="collection">
+        <element label="Vehicle Requestor" max_length="32" name="vehicle_requestor" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Actual Return Date" max_length="255" name="actual_return_date" type="glide_date"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="javascript:'roles=x_1807595_loaner_0.lva_user';" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Reschedule Reason" max_length="3000" name="reschedule_reason" type="string"/>
+        <element label="Additional Comments" max_length="1000" name="additional_comments" type="string"/>
+        <element label="Date Requested" max_length="40" name="date_requested" type="glide_date"/>
+        <element label="Vehicle" max_length="32" name="vehicle" reference="x_1807595_loaner_0_loaner_vehicle_catalog" type="reference"/>
+        <element choice="1" label="Return Vehicle Status" max_length="40" name="return_vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned with Major Issues" value="returned_with_major_issues"/>
+                <element inactive_on_update="false" label="Returned in Good Condition" value="returned_in_good_condition"/>
+                <element inactive_on_update="false" label="Returned with Minor Issues" value="returned_with_minor_issues"/>
+            </choice>
+        </element>
+        <element choice="1" label="Vehicle Status" max_length="40" name="vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned to Warehouse" value="returned_to_warehouse"/>
+                <element inactive_on_update="false" label="Out on Field" value="out_on_field"/>
+                <element inactive_on_update="false" label="Decommissioned" value="decommissioned"/>
+                <element inactive_on_update="false" label="Pending Release" value="pending_release"/>
+                <element inactive_on_update="false" label="Returned for Inspection" value="returned_for_inspection"/>
+                <element inactive_on_update="false" label="Sent for Servicing" value="sent_for_servicing"/>
+            </choice>
+        </element>
+        <element choice="1" label="Reschedule status" max_length="40" name="reschedule_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+            </choice>
+        </element>
+        <element label="Expected Return Date" max_length="40" name="expected_return_date" type="glide_date"/>
+        <element choice="1" label="Tracker Status" mandatory="true" max_length="40" name="tracker_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+            </choice>
+        </element>
+        <element label="Request Number" mandatory="true" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
+        <element label="Delivery Information" max_length="1000" name="delivery_information" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Return Notes" max_length="1000" name="return_notes" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="request_number"/>
+        </index>
+        <index name="index4">
+            <element name="vehicle"/>
+        </index>
+        <index name="index5">
+            <element name="vehicle_requestor"/>
+        </index>
+    </element>
+</database>
