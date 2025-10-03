@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="" sys_domain="global" table="x_1807595_loaner_0_vehicle_servicing" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1807595_loaner_0_vehicle_servicing" element="NULL" name="x_1807595_loaner_0_vehicle_servicing" parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="NULL" sys_domain="global" view="Default view">743efcaec3503610e89b341d05013142</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_id>fc3efcaec3503610e89b341d05013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date_sent_for_servicing</element>
+            <list_id display_value="x_1807595_loaner_0_vehicle_servicing" element="NULL" name="x_1807595_loaner_0_vehicle_servicing" parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="NULL" sys_domain="global" view="Default view">743efcaec3503610e89b341d05013142</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_id>f03efcaec3503610e89b341d05013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ticket_status</element>
+            <list_id display_value="x_1807595_loaner_0_vehicle_servicing" element="NULL" name="x_1807595_loaner_0_vehicle_servicing" parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="NULL" sys_domain="global" view="Default view">743efcaec3503610e89b341d05013142</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_id>f43efcaec3503610e89b341d05013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vehicle_issues</element>
+            <list_id display_value="x_1807595_loaner_0_vehicle_servicing" element="NULL" name="x_1807595_loaner_0_vehicle_servicing" parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="NULL" sys_domain="global" view="Default view">743efcaec3503610e89b341d05013142</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_id>f83efcaec3503610e89b341d05013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vehicle_status</element>
+            <list_id display_value="x_1807595_loaner_0_vehicle_servicing" element="NULL" name="x_1807595_loaner_0_vehicle_servicing" parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="NULL" sys_domain="global" view="Default view">743efcaec3503610e89b341d05013142</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_id>fc3efcaec3503610e89b341d05013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vehicle_tracker</element>
+            <list_id display_value="x_1807595_loaner_0_vehicle_servicing" element="NULL" name="x_1807595_loaner_0_vehicle_servicing" parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="NULL" sys_domain="global" view="Default view">743efcaec3503610e89b341d05013142</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_id>f03efcaec3503610e89b341d05013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_performed</element>
+            <list_id display_value="x_1807595_loaner_0_vehicle_servicing" element="NULL" name="x_1807595_loaner_0_vehicle_servicing" parent="x_1807595_loaner_0_loaner_vehicle_catalog" relationship="NULL" sys_domain="global" view="Default view">743efcaec3503610e89b341d05013142</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_id>f43efcaec3503610e89b341d05013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1807595_loaner_0_vehicle_servicing</name>
+            <parent>x_1807595_loaner_0_loaner_vehicle_catalog</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-03 02:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>743efcaec3503610e89b341d05013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1807595_loaner_0_vehicle_servicing</sys_name>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1807595_loaner_0">3b6ee5dfc3883210e89b341d050131ea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">3b6ee5dfc3883210e89b341d050131ea</sys_scope>
+            <sys_update_name>sys_ui_list_x_1807595_loaner_0_vehicle_servicing_x_1807595_loaner_0_loaner_vehicle_catalog_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-03 02:13:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
