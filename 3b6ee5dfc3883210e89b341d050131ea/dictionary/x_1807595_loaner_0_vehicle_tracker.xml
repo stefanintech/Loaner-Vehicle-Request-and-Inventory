@@ -7,7 +7,7 @@
         <element label="Reschedule Reason" max_length="3000" name="reschedule_reason" type="string"/>
         <element label="Additional Comments" max_length="1000" name="additional_comments" type="string"/>
         <element label="Date Requested" max_length="40" name="date_requested" type="glide_date"/>
-        <element label="Vehicle" max_length="32" name="vehicle" reference="x_1807595_loaner_0_loaner_vehicle_catalog" type="reference"/>
+        <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_1807595_loaner_0_loaner_vehicle_catalog" type="reference"/>
         <element choice="1" label="Return Vehicle Status" max_length="40" name="return_vehicle_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Returned with Major Issues" value="returned_with_major_issues"/>
@@ -15,7 +15,7 @@
                 <element inactive_on_update="false" label="Returned with Minor Issues" value="returned_with_minor_issues"/>
             </choice>
         </element>
-        <element choice="1" label="Vehicle Status" max_length="40" name="vehicle_status" type="choice">
+        <element choice="1" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Returned to Warehouse" value="returned_to_warehouse"/>
                 <element inactive_on_update="false" label="Out on Field" value="out_on_field"/>
