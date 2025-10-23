@@ -19,8 +19,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_dot_walk_path>location</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Requested for">cd88c357c3d47210e89b341d0501314c</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-05 20:22:21</sys_created_on>
         <sys_id>577a43d7c3d47210e89b341d050131e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Office Location</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1807595_loaner_0">3b6ee5dfc3883210e89b341d050131ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">3b6ee5dfc3883210e89b341d050131ea</sys_scope>
         <sys_update_name>item_option_new_577a43d7c3d47210e89b341d050131e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-05 20:22:21</sys_updated_on>
+        <sys_updated_on>2025-10-23 22:33:49</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
