@@ -8,13 +8,13 @@
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Request Loaner Vehicle">50c603c0c3ec3210e89b341d0501310f</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -53,7 +53,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <request_method/>
-        <roles/>
+        <roles>snc_internal</roles>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -66,21 +66,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-05 20:09:41</sys_created_on>
         <sys_id>d8870bd3c3d47210e89b341d05013166</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Request Loaner Vehicle</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1807595_loaner_0">3b6ee5dfc3883210e89b341d050131ea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">3b6ee5dfc3883210e89b341d050131ea</sys_scope>
         <sys_update_name>sc_cat_item_d8870bd3c3d47210e89b341d05013166</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-10-05 21:34:12</sys_updated_on>
+        <sys_updated_on>2025-10-20 16:26:44</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>11</version>
+        <version>12</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
